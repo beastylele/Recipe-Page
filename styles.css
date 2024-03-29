@@ -1,25 +1,58 @@
 body {
     background-color: hsl(30, 54%, 90%);
     margin: 0;
+    line-height: 1.5rem;
 }
+
+p , li{
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
 
 #img-holder {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 #container {
     width: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 5% auto;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
 }
 
 img {
     width: 100%;
+    border-radius: 20px;
 }
 
 #content {
-    padding: 20px;
+    padding: 30px;
+}
+
+.small-heading {
+    color:  hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+#heading {
+    font-size: 2rem;
+    color: hsl(24, 5%, 18%);
+}
+
+.table-container {
+    display: flex;
+}
+
+.table-container > p:last-of-type {
+    margin-left: 40%;
 }
